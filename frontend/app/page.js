@@ -25,7 +25,7 @@ export default function Home() {
 
         <input
           className="px-4 py-3 w-full rounded-lg bg-gray-700/80 border border-gray-600 text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 outline-none transition"
-          placeholder="e.g. Piyush (optional)"
+          placeholder="e.g. Avinash (optional)"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
