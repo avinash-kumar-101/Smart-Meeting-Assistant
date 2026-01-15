@@ -1,79 +1,79 @@
-🚀 Smart Meeting Assistant – AI Powered Meeting Intelligence Platform
+# 🚀 Smart Meeting Assistant – AI Powered Meeting Intelligence Platform
+
 Smart Meeting Assistant is an AI-based real-time meeting platform that automatically generates meeting summaries, action items, and key decisions so teams can focus on discussion instead of documentation.
-🌐 Live Demo: (add link if deployed)
+
+🌐 Live Demo: (add link if deployed)  
 📦 GitHub Repo: (current repo link)
-🧠 Why Smart Meeting Assistant?
-Most meetings are productive, but the follow-up work is painful – notes, tasks, and summaries.
+
+---
+
+## 🧠 Why Smart Meeting Assistant?
+
+Most meetings are productive, but the follow-up work is painful – notes, tasks, and summaries.  
 Smart Meeting Assistant solves this by combining real-time video streaming + AI intelligence to give:
-📌 Instant meeting summaries
-📝 Auto-generated action points
-🎯 Clear decisions & highlights
-⏱️ 70% reduction in manual note-taking effort
-Goal: Make meetings smarter, faster, and more productive.
-✨ Key Features
-🎥 Real-time video meetings using Stream SDK
-🤖 AI-powered summaries with Google Gemini
-📝 Automatic action item detection
-⚡ Fast & responsive UI (Next.js)
-📦 Dockerized backend for easy deployment
-🔐 Secure API handling using .env files
-📱 Mobile-friendly design
-🛠️ Tech Stack
-Layer
-Technology
-Frontend
-Next.js, React, Tailwind CSS
-Backend
-Python (FastAPI/Flask style)
-AI Engine
-Google Gemini AI
-Video SDK
-Stream SDK
-Container
-Docker
-Deployment
-Local / Cloud Ready
-🧩 How It Works (Simple Flow)
-User joins a meeting from Next.js frontend
-Stream SDK handles real-time video & audio
-Meeting data is sent to Python backend APIs
-Backend sends data to Gemini AI
-AI returns:
-Summary
-Action Points
-Key Highlights
-User receives clean, structured output instantly 🎉
-📂 Project Folder Structure
+
+- 📌 Instant meeting summaries  
+- 📝 Auto-generated action points  
+- 🎯 Clear decisions & highlights  
+- ⏱️ 70% reduction in manual note-taking effort  
+
+**Goal:** Make meetings smarter, faster, and more productive.
+
+---
+
+## ✨ Key Features
+
+- 🎥 Real-time video meetings using Stream SDK  
+- 🤖 AI-powered summaries with Google Gemini  
+- 📝 Automatic action item detection  
+- ⚡ Fast & responsive UI (Next.js)  
+- 📦 Dockerized backend for easy deployment  
+- 🔐 Secure API handling using `.env` files  
+- 📱 Mobile-friendly design  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology                         |
+|-----------|-------------------------------------|
+| Frontend  | Next.js, React, Tailwind CSS        |
+| Backend   | Python (FastAPI / Flask style)      |
+| AI Engine | Google Gemini AI                    |
+| Video SDK | Stream SDK                          |
+| Container | Docker                              |
+| Deployment| Local / Cloud Ready                 |
+
+---
+
+## 🧩 How It Works (Simple Flow)
+
+1. User joins a meeting from **Next.js frontend**
+2. **Stream SDK** handles real-time video & audio
+3. Meeting data is sent to **Python backend APIs**
+4. Backend sends data to **Gemini AI**
+5. AI returns:
+   - Summary  
+   - Action Points  
+   - Key Highlights  
+6. User receives clean, structured output instantly 🎉
+
+---
+
+## 📂 Project Folder Structure
+
+SMART-MEETING-ASSISTANT │ ├── backend │   ├── Dockerfile │   ├── main.py │   ├── main-alt.py │   ├── requirements.txt │   ├── pyproject.toml │   ├── uv.lock │   ├── README.md │   └── .env │ ├── frontend │   ├── app │   ├── public │   ├── node_modules │   ├── .env │   ├── package.json │   ├── next.config.mjs │   ├── eslint.config.mjs │   └── README.md │ └── .gitignore
 Copy code
 
-SMART-MEETING-ASSISTANT
-│
-├── backend
-│   ├── Dockerfile
-│   ├── main.py
-│   ├── main-alt.py
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── uv.lock
-│   ├── README.md
-│   └── .env
-│
-├── frontend
-│   ├── app
-│   ├── public
-│   ├── node_modules
-│   ├── .env
-│   ├── package.json
-│   ├── next.config.mjs
-│   ├── eslint.config.mjs
-│   └── README.md
-│
-└── .gitignore
 Clean separation of frontend & backend for scalability and maintainability.
-⚙️ How to Run the Project (Local Setup)
-🔹 Backend (Docker – Recommended)
-Copy code
-Bash
+
+---
+
+## ⚙️ How to Run the Project (Local Setup)
+
+### 🔹 Backend (Docker – Recommended)
+
+```bash
 cd backend
 docker build -t smart-meeting-backend .
 docker run -p 8000:8000 --env-file .env smart-meeting-backend
@@ -94,7 +94,7 @@ http://localhost:3000
 🔐 Environment Variables
 Create a .env file inside backend folder:
 Copy code
-
+Env
 STREAM_API_KEY=your_stream_key
 STREAM_API_SECRET=your_stream_secret
 CALL_ID=demo-room
@@ -106,7 +106,7 @@ GEMINI_API_KEY=your_gemini_key
 📞 Client Calls
 🎓 Online Classes
 🤝 Project Discussions
-Anywhere you need smart automation + clean documentation
+Anywhere you need smart automation + clean documentation.
 🧪 Development Approach
 This project was built using a problem-first mindset, not just feature stacking:
 Understanding real meeting pain points
@@ -119,12 +119,12 @@ Challenge
 Solution
 API timeouts
 Optimized request handling & retries
-Real-time data sync
+Real-time sync
 Used Stream SDK efficiently
 AI latency
 Structured prompts for faster response
 Scalability
-Dockerized backend for easy deployment
+Dockerized backend
 🔮 Future Improvements
 🗂️ User meeting history
 ⭐ Bookmark important moments
@@ -148,4 +148,4 @@ This project reflects my interest in AI, scalable systems, and product thinking.
 This repository is shared for learning, review, and evaluation purposes.
 Feel free to explore the code, understand the architecture, and learn from the approach.
 ⭐ Support
-If you like this project, don’t forget to star ⭐ the repository – it really motivates me!
+If you like this project, don’t forget to give it a star ⭐ – it really motivates me!
