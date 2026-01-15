@@ -1,21 +1,22 @@
 # 🚀 Smart Meeting Assistant – AI Powered Meeting Intelligence Platform
 
-Smart Meeting Assistant is an AI-based real-time meeting platform that automatically generates meeting summaries, action items, and key decisions so teams can focus on discussion instead of documentation.
+Smart Meeting Assistant is an AI-based real-time meeting intelligence platform that automatically generates meeting summaries, action items, and key decisions so teams can focus on discussion instead of manual documentation.
 
-Live Demo: (add link if deployed)  
-GitHub Repo: (current repo link)
+🔗 **GitHub Repo:** https://github.com/avinash-kumar-101/Smart-Meeting-Assistant  
+🔗 **LinkedIn:** https://www.linkedin.com/in/avinash-kumar-dev1/  
+📧 **Email:** ak4234q@gmail.com  
 
 ---
 
 ## 🧠 Why Smart Meeting Assistant?
 
-Most meetings are productive, but the follow-up work is painful – notes, tasks, and summaries.  
-Smart Meeting Assistant solves this by combining real-time video streaming with AI intelligence to deliver:
+Most meetings are productive, but the follow-up work is painful – writing notes, tracking tasks, and summarizing discussions.  
+Smart Meeting Assistant solves this by combining **real-time video streaming + AI intelligence** to deliver:
 
-- Instant meeting summaries  
-- Auto-generated action points  
-- Clear decisions and highlights  
-- Up to 70% reduction in manual note-taking effort  
+- 📌 Instant meeting summaries  
+- 📝 Auto-generated action points  
+- 🎯 Clear decisions and highlights  
+- ⏱️ Up to **70% reduction** in manual note-taking effort  
 
 **Goal:** Make meetings smarter, faster, and more productive.
 
@@ -23,20 +24,20 @@ Smart Meeting Assistant solves this by combining real-time video streaming with 
 
 ## ✨ Key Features
 
-- Real-time video meetings using Stream SDK  
-- AI-powered summaries with Google Gemini  
-- Automatic action item detection  
-- Fast and responsive UI built with Next.js  
-- Dockerized backend for easy deployment  
-- Secure API handling using environment variables  
-- Mobile-friendly design  
+- 🎥 Real-time video meetings using **Stream SDK**  
+- 🤖 AI-powered summaries with **Google Gemini**  
+- 📝 Automatic action item detection  
+- ⚡ Fast and responsive UI built with **Next.js**  
+- 📦 **Dockerized backend** for easy deployment  
+- 🔐 Secure API handling using environment variables  
+- 📱 Mobile-friendly design  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** Next.js, React, Tailwind CSS  
-- **Backend:** Python (FastAPI/Flask style)  
+- **Backend:** Python (FastAPI / Flask style)  
 - **AI Engine:** Google Gemini AI  
 - **Video SDK:** Stream SDK  
 - **Containerization:** Docker  
@@ -66,7 +67,7 @@ docker run -p 8000:8000 --env-file .env smart-meeting-backend
 ```
 
 Backend runs on:  
-http://localhost:8000
+http://localhost:8000  
 
 ---
 
@@ -79,7 +80,7 @@ npm run dev
 ```
 
 Frontend runs on:  
-http://localhost:3000
+http://localhost:3000  
 
 ---
 
@@ -100,11 +101,11 @@ GEMINI_API_KEY=your_gemini_key
 
 ## 🎯 Use Cases
 
-- Corporate Meetings  
-- Team Standups  
-- Client Calls  
-- Online Classes  
-- Project Discussions  
+- 🏢 Corporate Meetings  
+- 👨‍💻 Team Standups  
+- 📞 Client Calls  
+- 🎓 Online Classes  
+- 🤝 Project Discussions  
 
 Anywhere you need smart automation and clean documentation.
 
@@ -112,7 +113,7 @@ Anywhere you need smart automation and clean documentation.
 
 ## 🧪 Development Approach
 
-This project was built using a problem-first mindset, not just feature stacking:
+This project was built using a **problem-first mindset**, not just feature stacking:
 
 - Understanding real meeting pain points  
 - Designing clean and logical user flows  
@@ -124,12 +125,12 @@ This project was built using a problem-first mindset, not just feature stacking:
 
 ## 🚧 Challenges & Solutions
 
-| Challenge      | Solution                         |
-|---------------|----------------------------------|
-| API timeouts   | Optimized request handling       |
-| Real-time sync | Efficient Stream SDK usage       |
-| AI latency     | Structured prompts               |
-| Scalability    | Dockerized backend               |
+| Challenge       | Solution                         |
+|----------------|----------------------------------|
+| API timeouts    | Optimized request handling       |
+| Real-time sync  | Efficient Stream SDK usage       |
+| AI latency      | Structured prompts               |
+| Scalability     | Dockerized backend               |
 
 ---
 
@@ -161,8 +162,8 @@ Final Year B.Tech CSE Student | Full Stack Developer | AI Enthusiast
 I love building real-world applications that solve actual problems.  
 This project reflects my interest in AI, scalable systems, and product thinking.
 
-LinkedIn: (add link)  
-Email: (add email)
+🔗 LinkedIn: https://www.linkedin.com/in/avinash-kumar-dev1/  
+📧 Email: ak4234q@gmail.com  
 
 ---
 
