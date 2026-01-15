@@ -26,23 +26,21 @@ Smart Meeting Assistant solves this by combining real-time video streaming + AI 
 - 🎥 Real-time video meetings using Stream SDK  
 - 🤖 AI-powered summaries with Google Gemini  
 - 📝 Automatic action item detection  
-- ⚡ Fast & responsive UI (Next.js)  
+- ⚡ Fast & responsive UI built with Next.js  
 - 📦 Dockerized backend for easy deployment  
 - 🔐 Secure API handling using `.env` files  
-- 📱 Mobile-friendly design  
+- 📱 Mobile-friendly & clean UI design  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology                  |
-|------------|-----------------------------|
-| Frontend   | Next.js, React, Tailwind CSS |
-| Backend    | Python (FastAPI/Flask style) |
-| AI Engine  | Google Gemini AI             |
-| Video SDK  | Stream SDK                   |
-| Container  | Docker                       |
-| Deployment | Local / Cloud Ready          |
+- **Frontend:** Next.js, React, Tailwind CSS  
+- **Backend:** Python (FastAPI / Flask style APIs)  
+- **AI Engine:** Google Gemini AI  
+- **Video SDK:** Stream SDK  
+- **Containerization:** Docker  
+- **Deployment:** Local & Cloud Ready  
 
 ---
 
@@ -53,16 +51,7 @@ Smart Meeting Assistant solves this by combining real-time video streaming + AI 
 3. Data is sent to Python backend APIs  
 4. Backend sends data to Gemini AI  
 5. AI returns summary, action points & highlights  
-6. User gets clean structured output instantly
-
----
-
-## 📂 Project Folder Structure
-
-smart-meeting-assistant/ │ ├── backend/ │   ├── Dockerfile │   ├── main.py │   ├── main-alt.py │   ├── requirements.txt │   ├── pyproject.toml │   ├── uv.lock │   └── .env │ ├── frontend/ │   ├── app/ │   ├── public/ │   ├── .env │   ├── package.json │   ├── next.config.mjs │   ├── eslint.config.mjs │   └── node_modules/ │ ├── .gitignore └── README.md
-Copy code
-
-> Clean separation of frontend & backend for scalability and maintainability.
+6. User gets clean structured output instantly  
 
 ---
 
@@ -99,13 +88,14 @@ GEMINI_API_KEY=your_gemini_key
 📞 Client Calls
 🎓 Online Classes
 🤝 Project Discussions
+Anywhere you need smart automation + clean documentation.
 🧪 Development Approach
-Built with a problem-first mindset:
+This project was built using a problem-first mindset, not just feature stacking:
 Understanding real meeting pain points
-Clean and logical user flow
-Optimized API usage
-Reusable & scalable components
-Maintainable code structure
+Designing clean and logical user flow
+Optimizing API usage to avoid unnecessary calls
+Keeping components reusable and scalable
+Writing readable and maintainable code
 🚧 Challenges & Solutions
 Challenge
 Solution
@@ -122,7 +112,13 @@ User meeting history
 Bookmark important moments
 Analytics dashboard
 Multi-language support
-Smarter AI insights
+Smarter AI insights & recommendations
+📚 What This Project Demonstrates
+Strong understanding of full stack architecture
+Real-world AI integration experience
+Clean component-based design
+Performance-focused frontend development
+Product-oriented engineering thinking
 👨‍💻 Author
 Avinash Kumar
 Final Year B.Tech CSE Student | Full Stack Developer | AI Enthusiast
@@ -132,6 +128,6 @@ This project reflects my interest in AI, scalable systems, and product thinking.
 📧 Email: (add email)
 🤝 Usage & Integrity Notice
 This repository is shared for learning, review, and evaluation purposes.
-Feel free to explore the code and learn from the architecture.
+Feel free to explore the code, understand the architecture, and learn from the approach.
 ⭐ Support
 If you like this project, don’t forget to star ⭐ the repository – it really motivates me!
