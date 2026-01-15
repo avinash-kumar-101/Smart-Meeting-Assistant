@@ -35,151 +35,94 @@ Smart Meeting Assistant solves this by combining real-time video streaming + AI 
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology                    |
-|------------|--------------------------------|
-| Frontend   | Next.js, React, Tailwind CSS   |
-| Backend    | Python (FastAPI/Flask style)   |
-| AI Engine  | Google Gemini AI               |
-| Video SDK  | Stream SDK                     |
-| Container  | Docker                         |
-| Deployment | Local / Cloud Ready            |
+| Layer       | Technology                  |
+|------------|-----------------------------|
+| Frontend   | Next.js, React, Tailwind CSS |
+| Backend    | Python (FastAPI/Flask style) |
+| AI Engine  | Google Gemini AI             |
+| Video SDK  | Stream SDK                   |
+| Container  | Docker                       |
+| Deployment | Local / Cloud Ready          |
 
 ---
 
-## 🧩 How It Works (Simple Flow)
+## 🧩 How It Works
 
-1. User joins a meeting from **Next.js frontend**  
-2. **Stream SDK** handles real-time video & audio  
-3. Meeting data is sent to **Python backend APIs**  
-4. Backend sends data to **Gemini AI**  
-5. AI returns:
-   - Summary  
-   - Action Points  
-   - Key Highlights  
-6. User receives clean, structured output instantly 🎉
+1. User joins meeting from Next.js frontend  
+2. Stream SDK handles real-time video & audio  
+3. Data is sent to Python backend APIs  
+4. Backend sends data to Gemini AI  
+5. AI returns summary, action points & highlights  
+6. User gets clean structured output instantly
 
 ---
 
 ## 📂 Project Folder Structure
 
-SMART-MEETING-ASSISTANT
-│
-├── backend
-│   ├── Dockerfile
-│   ├── main.py
-│   ├── main-alt.py
-│   ├── requirements.txt
-│   ├── pyproject.toml
-│   ├── uv.lock
-│   ├── README.md
-│   └── .env
-│
-├── frontend
-│   ├── app
-│   ├── public
-│   ├── node_modules
-│   ├── .env
-│   ├── package.json
-│   ├── next.config.mjs
-│   ├── eslint.config.mjs
-│   └── README.md
-│
-└── .gitignore
+smart-meeting-assistant/ │ ├── backend/ │   ├── Dockerfile │   ├── main.py │   ├── main-alt.py │   ├── requirements.txt │   ├── pyproject.toml │   ├── uv.lock │   └── .env │ ├── frontend/ │   ├── app/ │   ├── public/ │   ├── .env │   ├── package.json │   ├── next.config.mjs │   ├── eslint.config.mjs │   └── node_modules/ │ ├── .gitignore └── README.md
+Copy code
 
-Clean separation of frontend & backend for scalability and maintainability.
+> Clean separation of frontend & backend for scalability and maintainability.
 
 ---
 
 ## ⚙️ How to Run the Project (Local Setup)
 
-## 🔹 Backend (Docker – Recommended)
+### Backend (Docker – Recommended)
 
+```bash
 cd backend
-
 docker build -t smart-meeting-backend .
 docker run -p 8000:8000 --env-file .env smart-meeting-backend
-
----
-
-🔹 Frontend (Next.js)
-
+Backend runs on:
+http://localhost:8000
+Frontend (Next.js)
+Copy code
+Bash
 cd frontend
 npm install
 npm run dev
-
+Frontend runs on:
 http://localhost:3000
-
----
-
 🔐 Environment Variables
-
 Create a .env file inside backend folder:
-
+Copy code
+Env
 STREAM_API_KEY=your_stream_key
 STREAM_API_SECRET=your_stream_secret
 CALL_ID=demo-room
 GEMINI_API_KEY=your_gemini_key
-
-⚠️ Important: Never push .env files to GitHub. Always keep them in .gitignore.
-
----
-
-
+⚠️ Never push .env files to GitHub. Always keep them in .gitignore.
 🎯 Use Cases
 🏢 Corporate Meetings
 👨‍💻 Team Standups
 📞 Client Calls
 🎓 Online Classes
 🤝 Project Discussions
-Anywhere you need smart automation + clean documentation.
-
----
-
 🧪 Development Approach
-This project was built using a problem-first mindset, not just feature stacking:
+Built with a problem-first mindset:
 Understanding real meeting pain points
-Designing clean and logical user flow
-Optimizing API usage to avoid unnecessary calls
-Keeping components reusable and scalable
-Writing readable, maintainable code
-
----
-
-
-🚧 Challenges Faced & Solutions
+Clean and logical user flow
+Optimized API usage
+Reusable & scalable components
+Maintainable code structure
+🚧 Challenges & Solutions
 Challenge
 Solution
 API timeouts
-Optimized request handling & retries
-Real-time data sync
-Used Stream SDK efficiently
+Optimized request handling
+Real-time sync
+Efficient Stream SDK usage
 AI latency
-Structured prompts for faster response
+Structured prompts
 Scalability
 Dockerized backend
-
----
-
-
 🔮 Future Improvements
-🗂️ User meeting history
-⭐ Bookmark important moments
-📊 Analytics dashboard
-🌍 Multi-language support
-🧠 Smarter AI insights & recommendations
-
----
-
-
-📚 What This Project Demonstrates
-Strong understanding of full stack architecture
-Real-world AI integration experience
-Clean component-based design
-Performance-focused frontend development
-Product-oriented engineering thinking
-
----
-
+User meeting history
+Bookmark important moments
+Analytics dashboard
+Multi-language support
+Smarter AI insights
 👨‍💻 Author
 Avinash Kumar
 Final Year B.Tech CSE Student | Full Stack Developer | AI Enthusiast
@@ -187,15 +130,8 @@ I love building real-world applications that solve actual problems.
 This project reflects my interest in AI, scalable systems, and product thinking.
 🔗 LinkedIn: (add link)
 📧 Email: (add email)
-
----
-
-
 🤝 Usage & Integrity Notice
 This repository is shared for learning, review, and evaluation purposes.
-Feel free to explore the code, understand the architecture, and learn from the approach.
-
----
-
+Feel free to explore the code and learn from the architecture.
 ⭐ Support
 If you like this project, don’t forget to star ⭐ the repository – it really motivates me!
